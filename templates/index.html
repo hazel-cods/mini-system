@@ -1,28 +1,29 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Document</title>
-  <link rel="stylesheet" href="/static/style.css">
-</head>
-<body>
-  <section>
-    <div class="card">
-      <form action="/submit">
-        <div class="header">
-        <h1> Registration Form</h1>
-        </div>
-
-        <input type="text" name="email" placeholder="Enter email address:">
-        
-
-
-
-      </form>
-    </div>
-  </section>
-
-  
-</body>
-</html> 
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Enrollment Form</title>
+    <link rel="stylesheet" href="/static/style.css" />
+  </head>
+  <body>
+    <section>
+      <div class="card">
+        <form action="/submit">
+          <div class="header">
+            <h2>Enrollment Form</h2>
+          </div>
+          <div class="personal_info">
+            <label for="fullname">Fullname:</label>
+            <input type="fullname" name="fullname " required /> <br />
+            <label for="email">Email address:</label>
+            <input type="email" name="email" required /><br />
+            <label for="password">Password</label>
+            <input type="password" name="password" required /><br />
+          </div>
+          <button type="submit" id="submit_btn">Submit</button>
+        </form>
+      </div>
+    </section>
+  </body>
+</html>
