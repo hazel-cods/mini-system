@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Message</title>
+    <link rel="stylesheet" href="/static/style.css" />
+  </head>
+  <body>
+    <main>
+      <div class="card2">
+        <section action="/register" method="POST" class="message_section">
+          <div class="card_mini">
+            <h2>Submitted Successfully!</h2>
+          </div>
+          <button id="btn_message">
+            <a href="{{url_for('index')}}">Register here</a>
+          </button>
+        </section>
+      </div>
+    </main>
+  </body>
+</html>
