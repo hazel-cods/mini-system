@@ -8,10 +8,10 @@ body{
   background: black;
   
 }
-h2, label{
+h2, p, a , label{
   color: wheat;
 }
-section{
+.form_section{
   padding: 20px;
   width: 100%;
   height: 100vh;
@@ -23,7 +23,7 @@ section{
   height: 80vh;
   padding: 5px;
   margin-top: 4%;
-  margin-left: 16%;
+  margin-left: 14%;
   display: flex;
   flex-direction: column;
 }
@@ -65,4 +65,50 @@ button{
   width: 14%;
   height: 7%;
   border: none;
+}
+
+
+.message_section{
+  border: 2px solid green;
+  width: 70%;
+  height: 100%;
+  padding: 5px;
+  justify-content: space-evenly;
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+
+}
+
+.card_mini{
+  border: 2px solid green;
+  padding: 20px;
+}
+.card_mini h2{
+  color: green;
+}
+
+#btn_message{
+  background: green;
+  padding: 2px;
+  width: 28%;
+}
+#btn_message a{
+  text-decoration: none;
+  color: black;
+  font-weight: bold;
+  font-size: 15px;
+
+}
+
+.card2{
+  justify-content: top ;
+  align-items: center;
+  width: 70%;
+  height: 80vh;
+  padding: 5px;
+  margin-top: 4%;
+  margin-left: 15%;
+  display: flex;
+  flex-direction: column;
 }
